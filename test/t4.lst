@@ -1,7 +1,0 @@
-   1: procedure pri();
-   2: function f(n:integer):integer;
-   3: begin if n<3 then f:=n else f:=n*f(n-1) end;
-   4: begin write(f(5)) end;
-   5: begin pri() end.
-   6: 
-   7: {result: 120}
