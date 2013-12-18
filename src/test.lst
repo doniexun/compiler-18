@@ -1,0 +1,51 @@
+   1: var a, b, c:integer;
+lineno:1: VAR var
+lineno:1: ID a
+lineno:1: COMMA ,
+lineno:1: ID b
+lineno:1: COMMA ,
+lineno:1: ID c
+lineno:1: COLON :
+lineno:1: INTEGER integer
+lineno:1: SEMI ;
+   2: 	z:integer;
+lineno:2: ID z
+lineno:2: COLON :
+lineno:2: INTEGER integer
+lineno:2: SEMI ;
+   3: begin
+lineno:3: BEGIN begin
+   4: 	z := a + (b + c) + (b + c) + a;
+lineno:4: ID z
+lineno:4: ASSIGN :=
+lineno:4: ID a
+lineno:4: PLUS +
+lineno:4: LPAR (
+lineno:4: ID b
+lineno:4: PLUS +
+lineno:4: ID c
+lineno:4: RPAR )
+lineno:4: PLUS +
+lineno:4: LPAR (
+lineno:4: ID b
+lineno:4: PLUS +
+lineno:4: ID c
+lineno:4: RPAR )
+lineno:4: PLUS +
+lineno:4: ID a
+lineno:4: SEMI ;
+   5: 	a := z;
+lineno:5: ID a
+lineno:5: ASSIGN :=
+lineno:5: ID z
+lineno:5: SEMI ;
+   6: 	z := z + 1;
+lineno:6: ID z
+lineno:6: ASSIGN :=
+lineno:6: ID z
+lineno:6: PLUS +
+lineno:6: UNS 1
+lineno:6: SEMI ;
+   7: end.lineno:7: END end
+lineno:7: DOT .
+lineno:8: ENDFILE 

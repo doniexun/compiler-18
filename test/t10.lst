@@ -1,0 +1,17 @@
+   1: procedure ge();
+   2: var a:array [10] of integer;
+   3: b:array [10] of integer;
+   4: c:array [10] of integer;
+   5: index:integer;
+   6: final:integer;
+   7: begin 
+   8: for index:=0 to 9 do c[index]:=index;
+   9: for index:=0 to 9 do b[c[index]]:=index;
+  10: for index:=0 to 9 do a[b[c[index]]]:=index;
+  11: final:=c[5]*b[c[1]]+(a[b[c[2]]*c[2]] / (a[2]-a[1]))-b[2]+b[3]-b[4]+1;
+  12: for index:=0 to 9  do write(a[index]);
+  13: write(final)
+  14: end;
+  15: begin ge() end.
+  16: 
+  17: {01234567897}
